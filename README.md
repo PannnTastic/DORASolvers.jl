@@ -3,6 +3,7 @@
 [![CI](https://github.com/ai-vnv/DORASolvers.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/ai-vnv/DORASolvers.jl/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/gh/ai-vnv/DORASolvers.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/ai-vnv/DORASolvers.jl)
 [![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://ai-vnv.github.io/DORASolvers.jl/dev/)
+[![arXiv](https://img.shields.io/badge/arXiv-2608.17703-b31b1b.svg)](https://arxiv.org/abs/2608.17703)
 
 DORA (Dijkstra Oracle Reduced-cost Algorithm) is an online solver for
 stochastic shortest path problems specified using the
@@ -133,5 +134,21 @@ Beyond the solver, the package exports the building blocks used by the paper:
 
 ## Citation
 
-If you use this package, please cite *Dijkstra as an Oracle for Online
-Stochastic Shortest Path Navigation with Provable Guarantees* paper (TBD).
+If you use this package, please cite the paper it implements:
+
+> Mansur M. Arief, Ali Akarma, Ahmad Alfan Alfian Irfan.
+> *Dijkstra as an Oracle for Online Stochastic Shortest Path Navigation with
+> Provable Guarantees.* arXiv:2608.17703, 2026.
+> <https://arxiv.org/abs/2608.17703>
+
+```bibtex
+@misc{arief2026dijkstraoracleonlinestochastic,
+      title={Dijkstra as an Oracle for Online Stochastic Shortest Path Navigation with Provable Guarantees},
+      author={Mansur M. Arief and Ali Akarma and Ahmad Alfan Alfian Irfan},
+      year={2026},
+      eprint={2608.17703},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2608.17703},
+}
+```
