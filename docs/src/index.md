@@ -28,8 +28,16 @@ Dijkstra oracle calls run lazily at decision time inside `action`.
 
 ## Installation
 
+DORASolvers is in the General registry:
+
 ```julia
 import Pkg
+Pkg.add("DORASolvers")
+```
+
+For the unreleased development version:
+
+```julia
 Pkg.add(url="https://github.com/ai-vnv/DORASolvers.jl")
 ```
 
@@ -62,6 +70,21 @@ Depth = 2
 
 ## Citation
 
-If you use this package, please cite *Dijkstra as an Oracle for Online
-Stochastic Shortest Path Navigation with Provable Guarantees* (paper
-forthcoming).
+If you use this package, please cite the paper it implements:
+
+> Mansur M. Arief, Ali Akarma, Ahmad Alfan Alfian Irfan.
+> *Dijkstra as an Oracle for Online Stochastic Shortest Path Navigation with
+> Provable Guarantees.* arXiv:2608.17703, 2026.
+> [https://arxiv.org/abs/2608.17703](https://arxiv.org/abs/2608.17703)
+
+```bibtex
+@misc{arief2026dijkstraoracleonlinestochastic,
+      title={Dijkstra as an Oracle for Online Stochastic Shortest Path Navigation with Provable Guarantees},
+      author={Mansur M. Arief and Ali Akarma and Ahmad Alfan Alfian Irfan},
+      year={2026},
+      eprint={2608.17703},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2608.17703},
+}
+```

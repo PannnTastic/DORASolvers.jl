@@ -10,6 +10,11 @@ Quick start:
 
 See the `examples/` directory for worked examples and the online
 documentation at https://ai-vnv.github.io/DORASolvers.jl/dev/.
+
+If you use this package, please cite the paper it implements: Mansur M. Arief,
+Ali Akarma, Ahmad Alfan Alfian Irfan, "Dijkstra as an Oracle for Online
+Stochastic Shortest Path Navigation with Provable Guarantees",
+arXiv:2608.17703, 2026. https://arxiv.org/abs/2608.17703
 """
 module DORASolvers
 
