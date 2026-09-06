@@ -25,8 +25,16 @@ decision time inside `action`.
 
 ## Installation
 
+DORASolvers is in the General registry:
+
 ```julia
 import Pkg
+Pkg.add("DORASolvers")
+```
+
+For the unreleased development version:
+
+```julia
 Pkg.add(url="https://github.com/ai-vnv/DORASolvers.jl")
 ```
 

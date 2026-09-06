@@ -1,7 +1,10 @@
 name = "DORASolvers"
 uuid = "71210631-d7b7-4b3c-b2ad-dc7b71d6cc21"
-authors = ["Mansur M. Arief <mansurarief91@gmail.com>"]
-version = "0.1.0"
+authors = [
+    "Mansur M. Arief <mansurarief91@gmail.com>",
+    "Ali Akarma <aliakarma974@gmail.com>",
+]
+version = "0.1.1"
 
 [deps]
 POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"
